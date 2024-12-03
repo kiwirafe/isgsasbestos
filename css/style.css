@@ -107,7 +107,6 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #000;
 }
 
 a.read-more {
@@ -495,7 +494,7 @@ a[href^=tel] {
 }
 @media (max-width: 767px) {
   .btn-primary,
-.btn-dark {
+  .btn-dark {
     font-size: 13px;
   }
 }
@@ -1201,16 +1200,6 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
   background-position: 50% 50%;
   background-size: cover;
 }
-@media (max-width: 991px) {
-  .banner-carousel .banner-carousel-item {
-    height: 500px;
-  }
-}
-@media (max-width: 575px) {
-  .banner-carousel .banner-carousel-item {
-    height: 400px;
-  }
-}
 
 .slider-content {
   position: relative;
@@ -1467,7 +1456,6 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 ================================================== */
 .call-to-action {
   background-color: #272d33;
-  padding: 30px;
 }
 
 .call-to-action-title {
@@ -2513,6 +2501,11 @@ img.testimonial-thumb {
   font-size: 58px;
   font-weight: 900;
 }
+
+.banner-title a:hover {
+  color: #ffb600;
+}
+
 @media (max-width: 767px) {
   .banner-title {
     font-size: 48px;
